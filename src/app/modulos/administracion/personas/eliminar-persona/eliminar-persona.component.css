@@ -1,0 +1,17 @@
+.row {
+    margin: auto;
+    width: 600px;  
+  }
+
+
+.boxes{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+       }
+
+    
+p { 
+        padding: 0.85em 1.5em;        
+      
+      } 

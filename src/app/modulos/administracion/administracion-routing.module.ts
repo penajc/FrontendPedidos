@@ -15,7 +15,7 @@ const routes: Routes = [
     component: CrearPersonaComponent
   },
   {
-    path: "buscar-persona",
+    path: "listar-personas",
     component: BuscarPersonaComponent
   },
   {
@@ -43,7 +43,7 @@ const routes: Routes = [
     component: EditarProductoComponent
   },
   {
-    path: "eliminar-producto",
+    path: "eliminar-producto/:id",
     component: EliminarProductoComponent
   }
 ];

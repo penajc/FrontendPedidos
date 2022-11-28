@@ -1,4 +1,6 @@
-<a routerLink="/administracion/crear-producto" class="btn" >Crear Producto</a>
+<br>
+<a routerLink="/administracion/crear-producto" class="btn">Crear Producto</a>
+<br>
 <table class="table responsive">
     <thead>
         <tr>
@@ -14,6 +16,9 @@
             <th>
                 Editar
             </th>
+            <th>
+                Eliminar
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -28,8 +33,12 @@
                 <img src="{{p.imagen}}" class="imagenProducto">
             </td>
             <td>
-                <a routerLink="/administracion/editar-producto/{{p.id}}"  class="btn" >Editar Producto</a>
+                <a routerLink="/administracion/editar-producto/{{p.id}}"  class="btn" ><i class="material-icons">create</i></a>
+            </td>
+            <td>
+                <a routerLink="/administracion/eliminar-producto/{{p.id}}"  class="btn" ><i class="material-icons">delete</i></a>
             </td>
         </tr>
     </tbody>
 </table>
+<br>

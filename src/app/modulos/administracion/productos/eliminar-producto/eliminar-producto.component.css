@@ -1,0 +1,11 @@
+.boxes{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+       }
+
+    
+.center-align { 
+        padding: 0.85em 1.5em;        
+      
+      }

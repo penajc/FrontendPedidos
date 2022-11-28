@@ -1,1 +1,25 @@
-<p>eliminar-producto works!</p>
+<div class="row">
+    <h3 class="center-align">Eliminar Producto</h3>
+    <article class="col s6 offset-s3"></article>
+    <form [formGroup]="fgvalidador" (ngSubmit)="EliminarProducto()" action="formulario-contacto.php" method="post">
+        <input type="hidden" formControlName="id">
+        <div class="input-field">
+            <label for="imagen" class="active">Nombre</label>
+            <input formControlName="nombre" type="text" name="nombre" required>
+          </div>
+        <div class="input-field">
+            <label for="imagen" class="active">Precio</label>
+            <input formControlName="precio" type="text" name="precio" required>
+          </div>
+      <div class="input-field">
+        <label for="imagen" class="active">Imagen</label>
+        <input formControlName="imagen" type="text" name="imagen" required>
+      </div>
+      
+        <p class="center-align">
+            <button class="waves-effect waves-light btn" type="submit">
+                <i class="material-icons">done</i></button>
+          </p>          
+
+    </form>
+</div>  
